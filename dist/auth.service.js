@@ -74,7 +74,7 @@ var AuthService = (function () {
                                         }
                                     });
                                 }
-                            }, { scope: 'email,publish_pages,manage_pages,publish_actions,read_insights,business_management,user_posts' });
+                            }, { scope: 'email' });
                         }
                     });
                     break;
